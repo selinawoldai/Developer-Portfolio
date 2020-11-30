@@ -1,0 +1,27 @@
+body{
+    background-color: #B2BD7E;
+}
+
+.content {
+    color: #313715;
+    text-align: center;
+    margin: 90px;
+    font-size: 20px;
+}
+.heading {
+    font-family: sans-serif;
+}
+
+#after_submit {
+    visibility: hidden;
+}
+
+#tea_quiz {
+    text-align: center;
+    border-style: solid;
+    border-color: #546A7B;
+    border-width: medium;
+    box-sizing: border-box;
+    
+    
+}

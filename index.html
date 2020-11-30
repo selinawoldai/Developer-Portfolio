@@ -1,0 +1,63 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script> 
+    <title>Food as Medicine</title>
+  </head>
+  <body>
+      <div class="content">
+          <h1 class="heading">Food as Medicine </h1>
+          <hr>
+          <p>
+              Although food should not be used as a replacement for medicine it can do a lot in
+              preventing diseases and treating aliments.
+          </p>
+          <p>
+              Today we will be looking at herbal teas. With thousands of herbal teas, all coming thousands of different flavors and benefits.
+              Some herbs may taste better in blends, some are delicious on its own. 
+              Some cause no known side effects, while others should be taken only under the professional supervision. 
+              If you decide to use herbs for any health condition, even the minor ones, with herbal remedies, always consult your doctor. 
+              Teas that may be completely safe to some people may cause serious side effects in others.
+              
+          </p>
+          <p>
+              Below is a quiz that'll direct you to be best tea suited to your
+              aliments and that can offere the best benefits for your specific needs. 
+          </p>
+          <hr>
+      </div>
+         
+      <div id="tea_quiz">
+          <h2 class="content"> BEST TEA MATCH FOR YOU QUIZ </h2>
+          <form id="quiz" name = "quiz">
+              <p> How much time do you spend relaxing in a day?</p>
+              <input type = "radio" id ="mc" name= "question1" value = "1-2 hrs a day"> 1-2 hrs a day<br>
+              <input type = "radio" id ="mc" name= "question1" value = "3 hrs a day"> 3 hrs a day<br>
+              <input type = "radio" id ="mc" name= "question1" value = "4 hrs or more"> 4 hrs or more<br>
+              
+              <p> How many serving of fruit/veggies do you eat in a week</p>
+              <input type = "radio" id ="mc" name= "question2" value = "0-2 servings"> 0-2 servings <br>
+              <input type = "radio" id ="mc" name= "question2" value = "3-5 servings"> 3-5 servings<br>
+              <input type = "radio" id ="mc" name= "question2" value = "7-9 servings"> 7-9 servings<br>
+              
+              <p> How much sleep do you get in a night?</p>
+              <input type = "radio" id ="mc" name= "question3" value = "less then 5 hours"> less then 5 hours <br>
+              <input type = "radio" id ="mc" name= "question3" value = "7-9 hours"> 7-9 hours <br>
+              <input type = "radio" id ="mc" name= "question3" value = "9+ hours"> 9+ hours <br>
+              <br>
+              <input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+              
+          </form>
+          <div id = "after_submit">
+              <p id = "message">  </p>
+              <p id= "number_correct">
+                  Congrats you've finished!
+                  <br>
+              </p>
+              
+          </div>
+      </div>
+  </body>
+</html>
